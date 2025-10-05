@@ -26,16 +26,15 @@
 # Клонируем репозиторий
 git clone https://github.com/jervissss/pz3-http.git
 cd pz3-http
-```
 
-## Инициализируем модуль Go
+# Инициализируем модуль Go
 ```powershell
 go mod init example.com/pz3-http
 ```
 
 ### Шаг 2: Запуск сервера
-### Через исходный код
 ```powershell
+# Через исходный код
 go run ./cmd/server/main.go
 ```
 При успешном запуске вы увидите сообщение: `listening on :8080`
